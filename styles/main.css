@@ -3,50 +3,41 @@
     --background:#EBDACC;
     
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+
+}
 /*
 ===================nav====================
 */
 
+.nav-bar{
+    height: 240px;
+    width: auto;
+}
 .search-box{
-
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-right: 20px;
-    background: var(--text);
-    height: 20px;
+    padding: 10px 10px;
+    width: 270px;
+    background-color: var(--text);
     border-radius: 40px;
-    padding: 10px;
 }
-.search-btn{
-    color: var(--text);
-    float: right;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.search-txt{
-    border: none;
-    background: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    line-height: 20px;
+.search-text{
+    background-color: var(--text);
     width: 240px;
+    height: 30px;
+    margin-right: 10px;
+    border: 0;
+
+}
+.svg{
+    background-color: var(--text);
+    margin-top: 5px;
+    float: right;
 }
 
-.image-logo{
-    margin: 20px;
-    padding: 20px;
-}
+.nav-seccions{
 
-
-body{
-    margin: 0;
-    padding: 0;
-    background-color: var(--background);
 }
