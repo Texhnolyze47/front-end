@@ -7,8 +7,8 @@
   </head>
   <body>
     <h1>Formulario de pedido</h1>
-
     <form action="pedido.js">
+      <!--input de nombre-->
       <label for="nombre">Nombre</label><br />
       <input
         type="text"
@@ -16,7 +16,7 @@
         name="nombre"
         placeholder="Tu nombre"
       /><br />
-
+          <!--input de numero-->
       <label for="numero">Telefono</label><br />
       <input
         type="number"
@@ -25,10 +25,11 @@
         placeholder="Tu numero"
       /><br />
 
+          <!--input de correo-->
       <label for="correo">Correo Electronico</label><br />
       <input type="email" id="correo" name="correo" placeholder="Tu correo" />
     </form>
-
+    <!--Botón para ir a crear un pastel -->
     <a href="../views/pastel.html">
         <input type="button" value="Siguiente">
     </a>
